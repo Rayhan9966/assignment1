@@ -200,6 +200,65 @@
     margin-left: 250px;
 }
 
+.background3{
+    /* display: flex; */
+    background: #070211;
+    width: 1400px;
+height: 500px;
+flex-shrink: 0;
+margin-left: 200px;
+margin-top: 80px;
+/* padding-top: 20px; */
+/* padding: 2px 2px 2px 2px; */
+justify-content: space-between;
+}
+.title{
+
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+max-width:  375px; 
+max-height: 80px;
+margin-left: 100px;
+margin-top: 100px;
+}
+.container{
+    display: flex;
+
+    align-items: right;
+    justify-content: center;
+}
+.t1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    text-align: right;
+    display: flex;
+}
+.phone{
+ 
+
+    float: left;
+
+}
+.social-links{
+    display: flex;
+justify-content: center;
+}
+.hr{
+    margin-bottom: 20px;
+    margin-top: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+width: 1200px;
+height: 1px;
+}
 .text9 {
     color: #F00;
     text-align: left;
@@ -363,7 +422,7 @@ line-height: 32px; /* 160% */
 }
 
 .imgbox2 {
-    display: flex ;
+    display: flex 1 ;
     padding: 4px;
 
     margin-left: 250px;
@@ -372,11 +431,31 @@ line-height: 32px; /* 160% */
 
 
 }
+.h1:hover{
+    box-shadow: 0 0 32px 16px rgb(250, 151, 4);
+}
+.h2:hover{
+    box-shadow: 0 0 32px 16px rgb(250, 151, 4);
+}
+.h3:hover{
+    box-shadow: 0 0 32px 16px rgb(250, 151, 4);
+}
+.h4:hover{
+    box-shadow: 0 0 32px 16px rgb(250, 151, 4);
+}
+.h5:hover{
+    box-shadow: 0 0 32px 16px rgb(250, 151, 4);
+}
+.h6:hover{
+    box-shadow: 0 0 32px 16px rgb(250, 151, 4);
+}
+
+
 
 .imgbox3 {
     padding: 4px;
 
-    display: flex ;
+    display: flex 1;
     
     margin-left: 250px;
     margin-right: auto;
@@ -393,7 +472,7 @@ line-height: 32px; /* 160% */
     /* margin-bottom: 200px; */
     width: 150px;
     height: 150px;
-    flex-shrink: 0;
+   
 }
 
 .recten {
@@ -434,4 +513,41 @@ background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-rep
 
 .third {
     margin-left: 50px;
+}
+.contact{
+    display: flex;
+    width: 648px;
+height: 72px;
+color: rgba(19, 18, 18, 0.897);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+flex-shrink: 0;
+border-radius: 50px 0 0 50px;
+background: #FFF;
+margin-left: 100px;
+margin-bottom: 100px;
+}
+.btn1{
+    width: 210px;
+height: 78px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+/* line-height: normal; */
+text-transform: capitalize;
+}
+.btn1:hover{
+   
+        box-shadow: 0 0 32px 16px rgb(250, 151, 4);
+    
 }
